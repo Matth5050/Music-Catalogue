@@ -32,7 +32,6 @@
 /Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Catalogue.Views.pdb
 /Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Catalogue.genruntimeconfig.cache
 /Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Catalogue.csproj.CopyComplete
-/Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Razor/Views/Songs/CreateForm.cshtml.g.cs
 /Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Razor/Views/Albums/Index.cshtml.g.cs
 /Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Razor/Views/Albums/New.cshtml.g.cs
 /Users/mherbert/Desktop/Music-Catalogue/Catalogue.Solution/Catalogue/obj/Debug/net5.0/Razor/Views/Albums/Show.cshtml.g.cs

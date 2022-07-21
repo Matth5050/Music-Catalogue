@@ -7,19 +7,11 @@ namespace Catalogue.Controllers
   public class SongsController : Controller
   {
 
-   
-
-    [HttpGet("/songs/new")]
-    public ActionResult CreateForm()
+    [HttpGet("/albums/{albumId}/songs/new")]
+    public ActionResult New(int albumId)
     {
-      return View();
-    }
-
-    [HttpPost("/songs")]
-    public ActionResult Create(string description)
-    {
-      Song mySong = new Song(description);
-      return RedirectToAction("Index");
+      Album album = Album.Find(albumId);
+      return View(album);
     }
 
     [HttpGet("/albums/{albumId}/songs/{songId}")]
@@ -32,8 +24,5 @@ namespace Catalogue.Controllers
       model.Add("album", album);
       return View(model);
     }
-
-   
-
   }
 }

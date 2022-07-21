@@ -8,7 +8,7 @@ namespace Catalogue.Models
     public int Id { get; }
     private static List<Song> _instances = new List<Song> {};
 
-    public Song (string description)
+    public Song(string description)
     {
       Description = description;
       _instances.Add(this);

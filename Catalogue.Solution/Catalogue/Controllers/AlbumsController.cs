@@ -39,7 +39,7 @@ namespace Catalogue.Controllers
     }
     // this one creates new songs within a given album, not new albums;
     [HttpPost("/albums/{albumId}/songs")]
-    public ActionResult Create(int albumId, string songDescription)
+    public ActionResult New(int albumId, string songDescription)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
       Album foundAlbum = Album.Find(albumId);
