@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Songs!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    @using Catalogue.Models;
+
+   <h1>Track List</h1>
+
+    @if (Model.Count == 0)
+    {
+      <p>There are no songs in the album.</p>
+    }
+    <ul>
+      @foreach (Song song in Model)
+      {
+        <li>@song.Description</li>
+      }
+    </ul>
+    <a href="/songs/new">Add a new song.</a>
+  </body>
+</html>
