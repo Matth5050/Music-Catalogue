@@ -17,5 +17,26 @@ namespace Catalogue.Models
     Id = _instances.Count;
     Songs = new List<Song>{};
   }
+
+  public static void ClearAll()
+  {
+    _instances.Clear();
+  }
+
+  public static List<Album> GetAll()
+  {
+    return _instances;
+  }
+
+  public static Album Find(int searchId)
+  {
+    return _instances[searchId-1];
+  }
+
+  public void AddSong(Song song)
+  {
+    Songs.Add(song);
+  }
+
 }
 }
